@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Тег TEXTAREA</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="test">
+			<div class="area">
+				<p><b>Введите ваш отзыв:</b></p>
+				<p><textarea rows="10" cols="45" name="text"></textarea></p>
+				<input data-name='1' name="Checkbox1" type="checkbox"  checked/>
+				<label for="Checkbox1">Кол-во букв</label><br>
+				<input data-name='2' name="Checkbox2" type="checkbox" checked/>
+				<label for="Checkbox2">Кол-во слов</label><br>
+				<input data-name='3' name="Checkbox3" type="checkbox"  checked/>
+				<label for="Checkbox3">Кол-во букв без пробела</label><br>
+				<input data-name='4' name="Checkbox4" type="checkbox"  checked/>
+				<label for="Checkbox4">Кол-во букв в процентах</label><br>
+                <hr>
+				<div class="info">
+					<p class="count-words" data-checkbox='Checkbox1'></p>
+					<p class="count-letters" data-checkbox='Checkbox2'></p>
+					<p class="count-letters-without-space" data-checkbox='Checkbox3'></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

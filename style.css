@@ -1,0 +1,22 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.test {
+    height: 100vh;
+    background-color: rgb(188, 200, 196);
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.area {
+    position: relative;
+    left: 50%;
+    max-width: 400px;
+    transform: translate(-50%, -50%);
+    top: 30%;
+}
+
